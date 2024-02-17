@@ -74,4 +74,7 @@ Tasks:
 2. Write an SQL query to find out how many users inserted more than 500 but less than 1000 images in their presentations!
 3. Print every department where the average salary per employee is lower than $800!
 
-## 
+## Database and Table
+> Copy and paste this code into your SQL editor.
+
+> This is conducted on MySQL/MariaDB relational database management system. 
