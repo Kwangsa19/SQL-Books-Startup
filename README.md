@@ -65,9 +65,6 @@ Tasks:
 
 > This is conducted on MySQL/MariaDB relational database management system.
 
-## Database and Tables
-> Copy and paste this into your SQL editor.
-
 * Table `authors` and `books`
 ```
 CREATE DATABASE books;
