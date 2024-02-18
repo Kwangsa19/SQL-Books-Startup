@@ -1,4 +1,5 @@
 # SQL-Books-Startup
+> This is a modified version of case study. Please visit this [link](https://data36.com/sql-interview-questions-tech-screening-data-analysts/). 
 
 ## Scenario 
 The ficitonal bookstore has two SQL tables: `authors` and `books`.
