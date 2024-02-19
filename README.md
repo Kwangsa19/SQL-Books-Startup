@@ -134,7 +134,7 @@ INSERT INTO salaries (salary, employee_id, employee_name) VALUES
 ```
 
 ## Solution
-1. Create an SQL query that shows the TOP 3 authors who sold the most books in total!
+1. Create an SQL query that shows the TOP 3 authors who sold the most books in total:
    
 ```
 SELECT authors.author_name, SUM(books.sold_copies) AS TotalSold
@@ -154,7 +154,7 @@ This query will show the top 3 authors who have sold the most books.
 
 ![heidisql_tUopEqH3BD](https://github.com/Kwangsa19/SQL-Books-Startup/assets/135963482/7fac874a-ec38-4e9e-a895-df56f494b68d)
 
-2. Print every department where the average salary per employee is lower than $800!
+2. Print every department where the average salary per employee is lower than $800: 
 
 ```
 SELECT employees.department_name, AVG(salaries.salary) AS AverageSalary
