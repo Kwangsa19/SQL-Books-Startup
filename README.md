@@ -147,7 +147,7 @@ LIMIT 3; -- Just three
 ```
 This query will show the top 3 authors who have sold the most books. 
 * First, I selected the name of the authors from `authors.author_name` and `TotalSold`.
-* Second, I combined two tables using `Join` or `Inner Join` on one condition the book name from table `authors` must match the name of the book in the table `books`.
+* Second, I combined two tables using `Join` or `Inner Join` on one condition the book name from `authors` table must match the name of the book in the `books` table.
 * Third, I grouped them by their author names.
 * Fourth, I reversed them on the `TotalSold` column.
 * The output:
@@ -166,7 +166,7 @@ HAVING AverageSalary < 800
 ORDER BY AverageSalary DESC;
 ```
 This query will print every department where the average salary per employee is lower than $800.
-* First, I selected `department_name` from table `employees` and `AverageSalary`. These two will appear in the output. 
+* First, I selected `department_name` from `employees` table and `AverageSalary`. These two will appear in the output. 
 * Second, I inner joined both `employees` and `salaries` tables on one condition that `employees.employee.id` must match `salaries_employee_id`.
 * Third, I grouped them based on the `department_name`. Initially, it would appear alphabetically and appear as they are. Remember, if you set the average salary under 800 first, then there would be an error due to MySQL selecting those deparment with below 800 in salary. Make sure it is on the fourth stage. 
 * Fourth, I set one condition that the average salary has to be under 800. This will eliminate the error in the MySQL. 
