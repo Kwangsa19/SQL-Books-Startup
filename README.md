@@ -175,3 +175,6 @@ This query will print every department where the average salary per employee is 
 
 ![heidisql_1rtzqMXGyV](https://github.com/Kwangsa19/SQL-Books-Startup/assets/135963482/7e2f01ae-4127-4782-b770-190a3d7b1b32)
 
+## Conclusion
+1. The top 3 authors are `author 2`, `author 3`, and `author 1`.
+2. The departments where the average salary per employee are lower than $800 are : `Marketing` and `Sales`. 
